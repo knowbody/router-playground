@@ -17,8 +17,20 @@ const Navigation = () => {
 const Home = () => {
   return (
     <Stage width={300} height={300}>
-      <TilingSprite image='https://raw.githubusercontent.com/Izzimach/react-pixi/master/examples/assets/bg_castle.png' width={300} height={300} key='1' />
-      <Text text='Vector text' x={150} y={10} style={{font:'40px Times'}} anchor={new PIXI.Point(0.5,0)} key='2' />
+      <TilingSprite
+        image='https://raw.githubusercontent.com/Izzimach/react-pixi/master/examples/assets/bg_castle.png'
+        width={300}
+        height={300}
+        key='1'
+      />
+      <Text
+        text='Vector text'
+        x={150}
+        y={10}
+        style={{font:'40px Times'}}
+        anchor={new PIXI.Point(0.5,0)}
+        key='2'
+      />
     </Stage>
   )
 }
